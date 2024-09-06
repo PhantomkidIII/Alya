@@ -61,7 +61,7 @@
     "node-webpmux": "^3.2.0",
     "object-query-string": "^1.2.0",
     "os": "^0.1.2",
-    "pastebin-js": "^1.0.6",
+    "pastebin-js": "latest",
     "path": "^0.12.7",
     "performance-now": "^2.1.0",
     "pm2": "^5.2.0",
