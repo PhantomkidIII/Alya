@@ -5,7 +5,7 @@
   "type": "module",
   "engines" : { "node": "v20.17.0", "npm": "v10.8.3" },
   "scripts": {
-    "start": "pm2 start alya/alya.js --deep-monitoring --attach --name gifted",
+    "start": "pm2 start alya/alya.js --deep-monitoring --attach --name alya",
     "stop": "pm2 stop alya",
     "restart": "pm2 restart alya"
   },
