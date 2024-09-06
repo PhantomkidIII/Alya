@@ -11,7 +11,7 @@
   },
   "keywords": ["Queen_Alya", "whatsapp-bot", "star_king"],
   "author": "STAR KING",
-  "license": "GNU",
+  "license": "MIT",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@google/generative-ai": "^0.9.0",
@@ -86,7 +86,7 @@
       "plugins": "alya/cmds"
    },
    "devDependencies": {
-      "pino": "^7.0.5"
+      "pino": "^8.20.0"
    },
    "repository": {
       "type": "git",
