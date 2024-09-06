@@ -4,7 +4,7 @@
   "main": "./alya/alya.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start alya/alya.cjs --deep-monitoring --attach --name alya",
+    "start": "pm2 start alya/alya.js --deep-monitoring --attach --name alya",
     "stop": "pm2 stop alya",
     "restart": "pm2 restart alya"
   },
