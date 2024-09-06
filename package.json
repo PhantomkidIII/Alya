@@ -1,6 +1,5 @@
 {
-  "name": "gifted-md",
-  "version": "5.0.0",
+  "name": "Queen_Alya",
   "description": "Gifted latest multi device whatsapp bot",
   "main": "./alya/alya.js",
   "type": "module",
