@@ -32,7 +32,7 @@ function _0x53c5() {
         }
     }
 }(_0x53c5, -0x60ef1 + 0x1 * 0x10b97 + 0x9f5db));
-import _0x1fb61a from './alyadjs';
+import _0x1fb61a from './alyad.js';
 import _0xea5448 from './alyatech.js';
 import _0x487a08 from './alya.js';
 function _0x116e(_0x538cea, _0x3ff7c1) {
