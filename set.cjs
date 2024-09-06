@@ -24,8 +24,8 @@ const config = {
   
   AUTO_REJECT_CALLS: process.env.AUTO_REJECT_CALLS !== undefined ? process.env.AUTO_REJECT_CALLS === 'true' : false, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : false,
-  MODE: process.env.MODE || 'public',
-  PREFIX: process.env.PREFIX || '.',
+  MODE: process.env.MODE || 'private',
+  PREFIX: process.env.PREFIX || '#',
   PORT: process.env.PORT || "5000", /* Where App Will Listen On */
   OWNER_NAME: process.env.OWNER_NAME || "STAR KING",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "2348100835767",
