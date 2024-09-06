@@ -1,6 +1,6 @@
-import { GiftedGpt } from 'gifted-gpt';
-const gpt4 = new GiftedGpt();
-const AiGifted = async (_0x3c99ab, _0x2a2231) => {
+import { AlyaGpt } from 'gifted-gpt';
+const gpt4 = new AlyaGpt();
+const Aialya = async (_0x3c99ab, _0x2a2231) => {
   const _0x55d76e = _0x3c99ab.body.match(/^[\\/!#.]/);
   const _0x5c738a = _0x55d76e ? _0x55d76e[0] : '/';
   const _0xc33afa = _0x3c99ab.body.startsWith(_0x5c738a) ? _0x3c99ab.body.slice(_0x5c738a.length).split(" ")[0].toLowerCase() : '';
@@ -41,4 +41,4 @@ const AiGifted = async (_0x3c99ab, _0x2a2231) => {
     }
   }
 };
-export default AiAlya;
+export default Aialya;
