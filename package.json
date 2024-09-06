@@ -3,7 +3,7 @@
   "description": "Gifted latest multi device whatsapp bot",
   "main": "./alya/alya.js",
   "type": "module",
-  "engines" : { "node": "v20.5.0", "npm": "v10.8.3" },
+  "engines" : { "node": "v20.17.0", "npm": "v10.8.3" },
   "scripts": {
     "start": "pm2 start alya/alya.js --deep-monitoring --attach --name gifted",
     "stop": "pm2 stop alya",
