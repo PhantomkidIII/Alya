@@ -200,7 +200,7 @@ const test = async (_0x13ee5d, _0x10e2a6) => {
             }),
             'header': proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({
-                'image': _0x324336.readFileSync("./gifted/img/gifted.jpg")
+                'image': _0x324336.readFileSync("./alya/img/alya.jpg")
               }, _0x120879)),
               'title': '',
               'gifPlayback': true,
