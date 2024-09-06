@@ -9,9 +9,7 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
 
 COPY package.json .
-
-RUN rm -rf node_modules
-
+ 
 RUN npm i && npm i -g qrcode-terminal
 
 COPY . .
