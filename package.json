@@ -2,7 +2,7 @@
   "name": "Queen_Alya",
   "description": "Gifted latest multi device whatsapp bot",
   "main": "./alya/alya.js",
-  "type": "module",
+  "type": "commonjs",
   "engines" : { "node": "v20.17.0", "npm": "v10.8.3" },
   "scripts": {
     "start": "pm2 start alya/alya.js --deep-monitoring --attach --name alya",
