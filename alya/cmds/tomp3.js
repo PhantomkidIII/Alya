@@ -1,4 +1,4 @@
-import { toAudio } from '../../gift/gifke.cjs';
+import { toAudio } from '../../star_king/alayke.cjs';
 const tomp3 = async (_0x2326fa, _0x30ba10) => {
   try {
     const _0x584d17 = _0x2326fa.body.match(/^[\\/!#.]/);

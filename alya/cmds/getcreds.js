@@ -86,11 +86,11 @@ const GetCreds = async (_0x2fcbb, _0x4ff8f0) => {
         });
         await _0x2fcbb.React('✅');
       } else {
-        throw new Error("Invalid response from Gifted API.");
+        throw new Error("Invalid response from alya API.");
       }
     } catch (_0x293e51) {
-      console.error("Error getting Gifted APi response:", _0x293e51.message);
-      _0x2fcbb.reply("Error getting response from Gifted Api.");
+      console.error("Error getting alya APi response:", _0x293e51.message);
+      _0x2fcbb.reply("Error getting response from alya Api.");
       await _0x2fcbb.React('❌');
     }
   }

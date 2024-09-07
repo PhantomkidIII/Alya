@@ -1,4 +1,4 @@
-import _0x143c6b from '../giftke.js';
+import _0x143c6b from '../alyake.js';
 import _0x5cb684 from '../../set.cjs';
 const ownerContact = async (_0x244417, _0x313411) => {
   const _0x34c06d = _0x5cb684.OWNER_NUMBER;

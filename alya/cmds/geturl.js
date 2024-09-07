@@ -1,4 +1,4 @@
-import { UploadFileUgu, TelegraPh } from '../giftedte.js';
+import { UploadFileUgu, TelegraPh } from '../alyate.js';
 import { writeFile, unlink } from 'fs/promises';
 const tourl = async (_0x1d2d83, _0x1963ac) => {
   const _0x212ef2 = _0x1d2d83.body.match(/^[\\/!#.]/);

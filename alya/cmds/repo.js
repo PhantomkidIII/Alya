@@ -6,7 +6,7 @@ const {
 import _0x263fc3 from 'axios';
 const handleRepoCommand = async (_0x505a2b, _0x45bbfa) => {
   try {
-    const _0x2a32d4 = await _0x263fc3.get('https://api.github.com/repos/mouricedevs/gifted');
+    const _0x2a32d4 = await _0x263fc3.get('https://api.github.com/repos/STAR-KING0/Queen_Alya');
     const _0x26a457 = _0x2a32d4.data;
     const {
       full_name: _0x323833,
@@ -17,7 +17,7 @@ const handleRepoCommand = async (_0x505a2b, _0x45bbfa) => {
       updated_at: _0x1854d9,
       owner: _0x57e1ec
     } = _0x26a457;
-    const _0x6cf242 = "Hello *_" + _0x505a2b.pushName + "_,*\nThis is *Gifted-Md,* A Whatsapp Bot Built by *QUEEN ALYA,* Enhanced with Amazing Features to Make Your Whatsapp Communication and Interaction Experience Amazing\nUse Below Buttons to Navigate to Bot's Repo and Other Areas.\n\n*❲❒❳ ɴᴀᴍᴇ:* " + _0x164e2d + "\n*❲❒❳ sᴛᴀʀs:* " + _0x128b76 + "\n*❲❒❳ ғᴏʀᴋs:* " + _0x1cb774 + "\n*❲❒❳ ᴄʀᴇᴀᴛᴇᴅ ᴏɴ:* " + new Date(_0x8189f6).toLocaleDateString() + "\n*❲❒❳ ʟᴀsᴛ ᴜᴘᴅᴀᴛᴇᴅ:* " + new Date(_0x1854d9).toLocaleDateString() + "\n*❲❒❳ ᴏᴡɴᴇʀ:* STAR KING";
+    const _0x6cf242 = "Hello *_" + _0x505a2b.pushName + "_,*\nThis is *QUEEN ALYA,* A Whatsapp Bot Built by *QUEEN ALYA,* Enhanced with Amazing Features to Make Your Whatsapp Communication and Interaction Experience Amazing\nUse Below Buttons to Navigate to Bot's Repo and Other Areas.\n\n*❲❒❳ ɴᴀᴍᴇ:* " + _0x164e2d + "\n*❲❒❳ sᴛᴀʀs:* " + _0x128b76 + "\n*❲❒❳ ғᴏʀᴋs:* " + _0x1cb774 + "\n*❲❒❳ ᴄʀᴇᴀᴛᴇᴅ ᴏɴ:* " + new Date(_0x8189f6).toLocaleDateString() + "\n*❲❒❳ ʟᴀsᴛ ᴜᴘᴅᴀᴛᴇᴅ:* " + new Date(_0x1854d9).toLocaleDateString() + "\n*❲❒❳ ᴏᴡɴᴇʀ:* STAR KING";
     const _0x5a3330 = generateWAMessageFromContent(_0x505a2b.from, {
       'viewOnceMessage': {
         'message': {
