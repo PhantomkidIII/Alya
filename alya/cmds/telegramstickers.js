@@ -1,5 +1,5 @@
 import _0x2357a3 from 'node-fetch';
-import _0x1c79cf from 'gifted-baileys';
+import _0x1c79cf from '@whiskeysockets/baileys';
 const {
   MessageType
 } = _0x1c79cf;

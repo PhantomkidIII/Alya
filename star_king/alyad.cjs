@@ -1,4 +1,4 @@
-const { proto, delay, getContentType, areJidsSameUser, generateWAMessage } = require('gifted-baileys')
+const { proto, delay, getContentType, areJidsSameUser, generateWAMessage } = require('@whiskeysockets/baileys')
 const fs = require('fs')
 const Crypto = require('crypto')
 const axios = require('axios')

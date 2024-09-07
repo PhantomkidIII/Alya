@@ -1,4 +1,4 @@
-import _0x3bfa16 from 'gifted-baileys';
+import _0x3bfa16 from '@whiskeysockets/baileys';
 const {
   generateWAMessageFromContent,
   proto

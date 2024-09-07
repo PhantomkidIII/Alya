@@ -1,4 +1,4 @@
-import _0x37e671 from 'gifted-baileys';
+import _0x37e671 from '@whiskeysockets/baileys';
 const {
   generateWAMessageFromContent,
   proto

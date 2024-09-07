@@ -64,7 +64,7 @@ function _0xeeb8() {
     }
 }(_0xeeb8, 0x93e22));
 import _0x4099c2 from 'axios';
-import _0x270584, { prepareWAMessageMedia } from 'gifted-baileys';
+import _0x270584, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 function _0x27bb(_0x185d71, _0x864876) {
     const _0xeeb8f3 = _0xeeb8();
     return _0x27bb = function (_0x27bbe7, _0x28955c) {

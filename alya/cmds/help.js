@@ -94,7 +94,7 @@ import _0x324336 from 'fs';
 import _0x597a0f from 'os';
 const more = String.fromCharCode(8206);
 const readmore = more.repeat(4001);
-import _0x3d13a6, { prepareWAMessageMedia } from 'gifted-baileys';
+import _0x3d13a6, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const {
   generateWAMessageFromContent,
   proto

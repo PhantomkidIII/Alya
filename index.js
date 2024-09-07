@@ -25,7 +25,7 @@ import {
     DisconnectReason,
     useMultiFileAuthState,
     getAggregateVotesInPollMessage
-} from 'gifted-baileys';
+} from '@whiskeysockets/baileys';
 import {
     Handler,
     Callupdate,

@@ -7,7 +7,7 @@ import {
     areJidsSameUser,
     generateForwardMessageContent,
     makeInMemoryStore
-} from "gifted-baileys";
+} from "@whiskeysockets/baileys";
 import { fileTypeFromBuffer } from 'file-type';
 import fs from 'fs';
 import pino from 'pino';
@@ -16,7 +16,7 @@ import PhoneNumber from 'awesome-phonenumber';
 import config from '../set.cjs';
 import { writeExifImg, writeExifVid } from '../star_king/alyate.cjs';
 import { getBuffer, getSizeMedia } from '../star_king/alyad.cjs'
-import baileys from "gifted-baileys";
+import baileys from "@whiskeysockets/baileys";
 const proto = baileys.proto;
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 

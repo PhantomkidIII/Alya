@@ -4,7 +4,7 @@
   "website": "https://github.com/STAR-KING0",
   "repository": "https://github.com/STAR-KING0/Queen_Alya",
   "logo": "https://f.uguu.se/LJlkZhem.jpg",
-  "keywords": ["Queen_Alya", "Queentech", "gifted-api", "gifted-baileys", "Queen_Alya"],
+  "keywords": ["Queen_Alya", "Queentech", "gifted-api", "@whiskeysockets/baileys", "Queen_Alya"],
   "success_url": "/",
   "stack": "heroku-24",
   "env": { 

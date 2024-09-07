@@ -1,4 +1,4 @@
-import _0x3d148c, { prepareWAMessageMedia } from 'gifted-baileys';
+import _0x3d148c, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const {
   generateWAMessageFromContent,
   proto

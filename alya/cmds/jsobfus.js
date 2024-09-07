@@ -48,7 +48,7 @@ const _0x2cee9d = _0x119760(this, function () {
 });
 _0x2cee9d();
 import _0x2720b5 from 'javascript-obfuscator';
-import _0x377b17 from 'gifted-baileys';
+import _0x377b17 from '@whiskeysockets/baileys';
 const {
   generateWAMessageFromContent,
   proto

@@ -1,4 +1,4 @@
-import { downloadContentFromMessage } from 'gifted-baileys';
+import { downloadContentFromMessage } from '@whiskeysockets/baileys';
 import 'fs';
 const vv2 = async (_0x3a927e, _0x1480d6) => {
   try {

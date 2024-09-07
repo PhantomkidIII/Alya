@@ -30,7 +30,7 @@ function _0x4623() {
   };
   return _0x4623();
 }
-import _0x176f82 from 'gifted-baileys';
+import _0x176f82 from '@whiskeysockets/baileys';
 const {
   generateWAMessageFromContent,
   proto

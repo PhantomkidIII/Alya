@@ -1,6 +1,6 @@
 import { GiftedGpt } from 'gifted-gpt';
 const gpt4 = new GiftedGpt();
-import _0x250301 from 'gifted-baileys';
+import _0x250301 from '@whiskeysockets/baileys';
 const {
   generateWAMessageFromContent,
   proto
