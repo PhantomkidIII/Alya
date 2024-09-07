@@ -1,19 +1,16 @@
 FROM node:lts-buster
 
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
+RUN https://github.com/PhantomkidIII/Alya
+
+RUN npm cache clean --force
+RUN rm -rf /root/PhantomkidIII/node_modules
+
+# Install dependencies
+WORKDIR /root/PhantomkidIII
+RUN npm install
 
 COPY package.json .
- 
-RUN npm i && npm i -g qrcode-terminal
-
-COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "alya/alya.js"]
+CMD ["node", "index.js"]
