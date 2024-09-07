@@ -86,7 +86,7 @@ function _0x4c49() {
     return _0x4c49();
 }
 import _0x31a011 from 'axios';
-import _0x201062, { prepareWAMessageMedia } from 'gifted-baileys';
+import _0x201062, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 function _0x5cef(_0x54e01f, _0x5ac4b8) {
     const _0x4c49d8 = _0x4c49();
     return _0x5cef = function (_0x5cef6e, _0x5f8821) {

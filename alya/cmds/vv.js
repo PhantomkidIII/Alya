@@ -12,7 +12,7 @@
         }
     }
 }(_0x5448, 0x4ca7d));
-import { downloadContentFromMessage } from 'gifted-baileys';
+import { downloadContentFromMessage } from '@whiskeysockets/baileys';
 function _0x5448() {
     const _0xe0bd15 = [
         'length',

@@ -1,6 +1,6 @@
 import _0x1a5cbf from 'yt-search';
 import _0x41c730 from 'axios';
-import _0x400074, { prepareWAMessageMedia } from 'gifted-baileys';
+import _0x400074, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const {
   generateWAMessageFromContent,
   proto

@@ -1,5 +1,5 @@
 import _0x1704a2 from 'axios';
-import _0x541df1 from 'gifted-baileys';
+import _0x541df1 from '@whiskeysockets/baileys';
 const {
   generateWAMessageFromContent,
   proto

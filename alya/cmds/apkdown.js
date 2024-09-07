@@ -14,7 +14,7 @@
   }
 })(_0x5ade, 908012);
 import { search, download } from 'aptoide-scraper';
-import _0x219438, { prepareWAMessageMedia } from 'gifted-baileys';
+import _0x219438, { prepareWAMessageMedia } from '@whiskeysockets/baileys';
 const {
   generateWAMessageFromContent,
   proto
