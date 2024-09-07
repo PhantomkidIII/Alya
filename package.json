@@ -2,9 +2,8 @@
   "name": "Queen_Alya",
   "version": "5.0.0",
   "description": "Queen_Alya latest multi device whatsapp bot",
-  "main": "./index.js",
-  "type": "module",
-  "engines" : { "node": "v20.17.0", "npm": "v10.8.3" },
+  "main": "index.js",
+  "type": "commonjs"
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name alya",
     "stop": "pm2 stop alya",
@@ -82,6 +81,10 @@
     "webcrack": "^2.14.1",
     "yt-search": "^2.11.0"
       },
+   "directories": {
+    "lib": "alya",
+    "plugins": "./alya/cmds"
+  },
    "repository": {
       "type": "git",
       "url": "git+https://github.com/STAR-KING0/Queen_Alya.git"
