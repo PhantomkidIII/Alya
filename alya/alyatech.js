@@ -39,7 +39,7 @@ function _0x448b() {
         'read',
         '758254KvCyHc',
         'getHeight',
-        './img/gift.png',
+        './img/alya.jgp',
         '1247382jLDfWu'
     ];
     _0x448b = function () {
